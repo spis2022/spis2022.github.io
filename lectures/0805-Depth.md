@@ -40,3 +40,84 @@ def printGreeting():
 ```python
 def firstRoot(a,b,c):
 ```
+
+# Print vs Return: when they look the same
+
+<img width="969" alt="image" src="https://user-images.githubusercontent.com/1119017/183130077-b527f1f9-37cc-49ed-b4ef-8cc06d61ea63.png">
+
+# Print vs. Return: when they behave differently
+
+<img width="1098" alt="image" src="https://user-images.githubusercontent.com/1119017/183130183-7cc2412a-854a-4a02-9533-6b8f82f44119.png">
+
+Why? What is happening?
+
+The first thing to realize is that when we type something like this:
+
+```
+celsiusToFarenheit(20) - 1
+```
+
+This is evaluated by first running the code inside the function definition of `celsiusToFarenheit` then _replacing the words `celsiusToFarenheit(20)` with the return value_.
+
+So: 
+
+```
+celsiusToFarenheit(20) - 1
+```
+
+becomes:
+
+```
+68.0 - 1
+```
+
+Because `celsiusToFarenheit(20)` when you run it, returns the value 68.0
+
+Now: What happens in the case of cToF?
+
+The thing to understand is that every python function that doesn't encounter a `return` statement, when it reaches the end of the code, it does `return None`.
+
+So: 
+
+```python
+def cToF(celsius):
+  print( ((celsius / 5.0) * 9.0) + 32.0 )
+
+```
+
+But really, inside of Python's mind, it looks like this:
+
+
+```python
+def cToF(celsius):
+  print( ((celsius / 5.0) * 9.0) + 32.0 )
+  return None
+
+```
+
+We didn't type the `return None`.  Python put that in for us (whether we like it or not!)
+
+So, when we have:
+
+```
+cToF(20) - 1
+```
+
+The `cToF(20)` is evaluated: meaning we go do the code inside the function defintion of `cToF`, with `celsius` having the value `20`.
+
+And we end up printing the value `68.0` on the screen and then returning `None`.
+
+So we get: 
+
+
+```
+None - 1
+```
+
+Which is an error!
+
+We can see that directly if we type it in:
+
+Note that these two expressions give the same error!
+
+<img width="504" alt="image" src="https://user-images.githubusercontent.com/1119017/183130920-7551aec7-8c20-4182-85ea-1c5eb2f67d0c.png">
