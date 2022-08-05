@@ -330,3 +330,68 @@ Here's the results:
   40  104
 >
 ```
+
+# for loops vs. while loops
+
+Two ways to count from 1 to 10
+
+```python
+
+print('''
+ 
+ *** counting 1 to 10 with a for loop ***
+ 
+''')
+
+for i in range(1,11):
+  print(i)
+
+
+print('''
+ 
+ *** counting 1 to 10 with a while loop ***
+ 
+''')
+
+i = 1
+while (i<=10):
+  print(i)
+  i+=1
+
+```
+
+Output:
+
+```
+
+ 
+ *** counting 1 to 10 with a for loop ***
+ 
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+ 
+ *** counting 1 to 10 with a while loop ***
+ 
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+ 
+```
