@@ -165,3 +165,13 @@ Instead of:
 
 We want all of the numbers to line up nicely in columns?
 
+<img width="981" alt="image" src="https://user-images.githubusercontent.com/1119017/183133442-e1fc98a6-db12-4ca5-9549-2a752a38b251.png">
+
+We'll come back later and cover that in more detail.
+
+I just wanted you to see a nicely formatted table as part of answering "why would we ever use print".
+
+Typically when we are using print, it's because we are trying to format some nice output for a human to read.
+
+Whereas, when we use return, are returning the result of a computation that we might want to use somewhere else in the program.
+
