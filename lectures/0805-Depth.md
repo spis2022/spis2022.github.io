@@ -227,6 +227,106 @@ Each percent thingy (i.e. `%5d` or `%5s` for a string) is replaced by one of the
 
 # Hard Coded values vs. Parameters
 
-We sometimed "hard code" values in a function definition, like this:
+We sometimed "hard code" values in a function definition, like this.
+
+```python
+def tempTableHardCoded():
+  print ('%4s %4s' % ("C","F") )
+  print ('%4s %4s' % ("-----","-----") )
+  for temp in range(0,101,10):
+    # print(temp, celsiusToFarenheit(temp))
+    print('%4d %4d' % ( temp, celsiusToFarenheit(temp) ) )
+```
+
+Here in the `range` for the for loop, 0, 101, 10 are the hard coded values.
+
+It means that this funciton is not very flexible.  We always, always, get the same table.
+If we want a different table, too bad.
 
 <img width="930" alt="image" src="https://user-images.githubusercontent.com/1119017/183135402-6fc458be-3882-4e81-94a4-d963ffa0bf14.png">
+
+By contrast, this function definition has parameters: `first, last, step` 
+
+```python
+def tempTable(first, last, step):
+  print ('%4s %4s' % ("C","F") )
+  print ('%4s %4s' % ("-----","-----") )
+  for temp in range(first,last+1,step):
+    # print(temp, celsiusToFarenheit(temp))
+    print('%4d %4d' % ( temp, celsiusToFarenheit(temp) ) )
+```
+
+Now, we can do a variety of function calls, and get a variety of results!
+
+```
+tempTable(-40,40,10)
+tempTable(0,100,5)
+tempTable(0,40,2)
+```
+etc
+
+Here's the results:
+
+```
+> tempTable(-40,40,10)
+   C    F
+----- -----
+ -40  -40
+ -30  -22
+ -20   -4
+ -10   14
+   0   32
+  10   50
+  20   68
+  30   86
+  40  104
+> tempTable(0,100,5)
+   C    F
+----- -----
+   0   32
+   5   41
+  10   50
+  15   59
+  20   68
+  25   77
+  30   86
+  35   95
+  40  104
+  45  113
+  50  122
+  55  131
+  60  140
+  65  149
+  70  158
+  75  167
+  80  176
+  85  185
+  90  194
+  95  203
+ 100  212
+> tempTable(0,40,2)
+   C    F
+----- -----
+   0   32
+   2   35
+   4   39
+   6   42
+   8   46
+  10   50
+  12   53
+  14   57
+  16   60
+  18   64
+  20   68
+  22   71
+  24   75
+  26   78
+  28   82
+  30   86
+  32   89
+  34   93
+  36   96
+  38  100
+  40  104
+>
+```
