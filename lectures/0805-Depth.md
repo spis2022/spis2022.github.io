@@ -123,6 +123,45 @@ Note that these two expressions give the same error!
 <img width="504" alt="image" src="https://user-images.githubusercontent.com/1119017/183130920-7551aec7-8c20-4182-85ea-1c5eb2f67d0c.png">
 
 
+# Question: why use print at all, when return seems better
+
+Answer: sometimes you really do just want to put some output on the screen, and you don't want your function to immediately end!
+
+Consider this function that can print a conversion table from celsius to farenheit:
+
+[Repl](https://replit.com/@phtcon/spis2022-depth-0805#main.py)
+
+```python
+def cToF(celsius):
+  print( ((celsius / 5.0) * 9.0) + 32.0 )
+
+
+def tempTable(first, last, step):
+  print ("C","F")
+  for temp in range(first,last+1,step):
+    print(temp, celsiusToFarenheit(temp))
+
+
+tempTable(0,100,10)
+
+```
+
+If we replaced the occurences of `print` inside the `tempTable` function with `return`, we wouldn't get the result we want.
+
+Remember that `return` ends a function immediately.  If we want to go through every iteration of the loop, we need `print`
+
+<img width="910" alt="image" src="https://user-images.githubusercontent.com/1119017/183132875-bf1a30ea-835a-4274-b5a0-c93d2a4e25c7.png">
+
+
 # A small digression: formatting
 
 Here's a link: [https://realpython.com/python-formatted-output/](https://realpython.com/python-formatted-output/)
+
+What if we wanted a nicer table?
+
+Instead of:
+
+<img width="224" alt="image" src="https://user-images.githubusercontent.com/1119017/183132915-3fd00e92-861e-49a4-811e-ba52b17a9065.png">
+
+We want all of the numbers to line up nicely in columns?
+
