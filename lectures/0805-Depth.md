@@ -167,6 +167,11 @@ We want all of the numbers to line up nicely in columns?
 
 <img width="981" alt="image" src="https://user-images.githubusercontent.com/1119017/183133442-e1fc98a6-db12-4ca5-9549-2a752a38b251.png">
 
+I can change the width of the fields from 5 to 4 and get a more compact table.  Here I also changed the step value from 10 to 5
+
+<img width="799" alt="image" src="https://user-images.githubusercontent.com/1119017/183134763-b9f70974-a0a5-45aa-af9b-c1a629658f26.png">
+
+
 We'll come back later and cover that in more detail.
 
 I just wanted you to see a nicely formatted table as part of answering "why would we ever use print".
