@@ -4,3 +4,5 @@ Here's what we'll cover (based on suggestions/questions from students in the ses
 
 * print vs. return
 * for and while loops
+* parameters (also called arguments)
+  - related: function call vs. function definition
