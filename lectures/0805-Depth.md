@@ -225,3 +225,8 @@ The operand on the right of the `%` is a tuple containing all of the values that
 
 Each percent thingy (i.e. `%5d` or `%5s` for a string) is replaced by one of the values in the tuple.)
 
+# Hard Coded values vs. Parameters
+
+We sometimed "hard code" values in a function definition, like this:
+
+<img width="930" alt="image" src="https://user-images.githubusercontent.com/1119017/183135402-6fc458be-3882-4e81-94a4-d963ffa0bf14.png">
