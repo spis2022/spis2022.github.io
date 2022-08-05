@@ -175,3 +175,48 @@ Typically when we are using print, it's because we are trying to format some nic
 
 Whereas, when we use return, are returning the result of a computation that we might want to use somewhere else in the program.
 
+# What is Overloading?
+
+It's when the same symbol has different meanings in different contexts.
+
+So, for example:
+
+```python
+x = 3 + 5
+```
+
+Here the `+` means add.  3 plus 5.
+
+But:
+
+```python
+name = "Phill"
+school = "UC San Diego"
+message = name + " is teaching for " + school
+```
+
+Here, the `+` means "string concatenation".  So, the `+` can have different meanings in different contexts.
+
+There's even another meaning of `+`: concatenating lists:
+
+<img width="486" alt="image" src="https://user-images.githubusercontent.com/1119017/183134107-99b1c863-3e85-46d0-b5f6-b1a585ae58ce.png">
+
+In the same way `%` means mod in one context (i.e. remainder after division)
+
+```
+x = 121 % 10  #result is 1
+y = 121 % 11  #result is 0
+```
+
+But in another context, it means string formatting:
+
+```
+print('%5d %5d' % ( temp, celsiusToFarenheit(temp) ) )
+```
+
+Here, the operand on the left of the `%` is a format string.  The `%d` means "decimal number" and `%5d` means a "decimal number with width of 5".
+
+The operand on the right of the `%` is a tuple containing all of the values that are going to be printed by the "percent thingies".
+
+Each percent thingy (i.e. `%5d` or `%5s` for a string) is replaced by one of the values in the tuple.)
+
