@@ -121,3 +121,8 @@ We can see that directly if we type it in:
 Note that these two expressions give the same error!
 
 <img width="504" alt="image" src="https://user-images.githubusercontent.com/1119017/183130920-7551aec7-8c20-4182-85ea-1c5eb2f67d0c.png">
+
+
+# A small digression: formatting
+
+Here's a link: [https://realpython.com/python-formatted-output/](https://realpython.com/python-formatted-output/)
