@@ -395,3 +395,63 @@ Output:
 10
  
 ```
+
+Here is a more practical program that uses a while loop.  This calculates factors of an integer:
+
+[Repl](https://replit.com/@phtcon/spis2022-depth-2#functions.py)
+
+```python
+import math
+
+def factor_limit(my_number):
+  '''
+  largest number I need to check that could
+  be a factor of my_number
+  '''
+  return int(math.sqrt(my_number))
+
+def first_factor(my_number):
+
+  for i in range(2,factor_limit(my_number)+1):
+    if my_number % i == 0:
+      return i # we found a factor!
+
+  return my_number
+
+def get_factors(my_number):
+
+  factors = []
+  
+  factor = first_factor(my_number)
+  factors.append(factor)
+  
+  rest_of_number = my_number // factor
+
+  # We use a while loop here, because we
+  # can't predict how many times the loop is 
+  # needed
+  
+  while(rest_of_number > 1):
+    factor = first_factor(rest_of_number)
+    factors.append(factor)    
+    rest_of_number = rest_of_number // factor
+
+  return factors
+
+```
+
+Sample output:
+
+```
+> get_factors(127)
+[127]
+> get_factors(128)
+[2, 2, 2, 2, 2, 2, 2]
+> get_factors(121)
+[11, 11]
+> get_factors(360)
+[2, 2, 2, 3, 3, 5]
+> get_factors(36)
+[2, 2, 3, 3]
+> 
+```
