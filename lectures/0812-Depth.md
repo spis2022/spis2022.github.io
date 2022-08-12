@@ -109,6 +109,30 @@ Here's a proposed solution (not necessarily correct) crowdsourced from students 
 <img width="288" alt="image" src="https://user-images.githubusercontent.com/1119017/184415981-4dbff870-45ba-4f99-86a5-5c6985ca7f96.png">
 
 
+# We talked a bit about iterators
+
+There was question about iterators.  In lab03, the following code made an iterator go through
+all of the lines in the file of data (a csv, or "comma separated value" file).
+
+```python
+
+    hurricaneFile = "data/irma.csv"
+    # The line below is a little magical. It opens the file,
+    # with awareness of any errors that might occur.
+    with open(hurricaneFile, 'r') as csvfile:
+        # This line gives you an "iterator" you can use to get each line
+        # in the file.
+        pointreader = csv.reader(csvfile)
+
+
+```
+
+The student had solved the problem, but wasn't sure what an iterator was.
+
+We explored that in this repl:
+
+[https://replit.com/@phtcon/spis2022-depth-0812-iterators#read_food.py](https://replit.com/@phtcon/spis2022-depth-0812-iterators#read_food.py)
+
 # A bit about references
 
 Let's talk about Pointer Assignment vs. Deep Copy
