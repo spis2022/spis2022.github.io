@@ -112,6 +112,8 @@ Here is a repl where we worked towards a correct solution:
 
 [https://replit.com/@phtcon/spis2022-depth-0812-num2lettergrade#main.py](https://replit.com/@phtcon/spis2022-depth-0812-num2lettergrade#main.py)
 
+# Purpose of Console and Shell windows in repl.it
+
 We also discussed the purpose of the Console and the Shell windows in repl.it
 
 <img width="306" alt="image" src="https://user-images.githubusercontent.com/1119017/184425187-fb860725-54ce-4a64-bb12-266e2615a2d4.png">
