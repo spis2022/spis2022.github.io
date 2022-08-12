@@ -98,6 +98,12 @@ Examples:
 * grade2letter(75) should return C, 
 * grade2letter(40) should return F.
 
+In any if/elif/elif/else block:
+* ONLY ONE of the blocks of code will be executed.
+* there is a condition on each of the ifs, and elifs
+* the FIRST condition that is TRUE, we execute that block of code, then we SKIP THE REST!
+* we only do the else, if ALL of the conditions are False!
+
 Here's a proposed solution (not necessarily correct) crowdsourced from students in the session
 
 <img width="288" alt="image" src="https://user-images.githubusercontent.com/1119017/184415981-4dbff870-45ba-4f99-86a5-5c6985ca7f96.png">
