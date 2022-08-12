@@ -80,6 +80,26 @@ def sleep_in(weekday, vacation):
 
 ```
 
+# Q: When would you use an `elif`? Is it between `if` and `else`
+
+A: Yes!  Here's an example of when you might use it:
+
+Write a function that takes in a number representing a grade between 0 and 100.
+
+Return the letter grade, assuming that 90-100 is an A, 80-any number less than 90 is an B, etc.
+
+To simplify the problem, we won't worry about + and - grades.
+
+
+Examples:
+
+* grade2letter(90) should return A
+* grade2letter(89.9) should return B
+* grade2letter(75) should return C, 
+* grade2letter(40) should return F.
+
+
+
 # A bit about references
 
 Let's talk about Pointer Assignment vs. Deep Copy
