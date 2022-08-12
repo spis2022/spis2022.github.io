@@ -11,7 +11,7 @@ Python has so many keywords, structures, syntax, symbols... how do you keep it a
 
 A: 1st answer: practice, practice, practice
 
-[https://codingbat.com/python](https://codingbat.com/python)\
+[https://codingbat.com/python](https://codingbat.com/python)
 
 A: 2nd answer: Honestly, some parts you do and some parts you dont.
 
