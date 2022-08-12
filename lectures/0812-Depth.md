@@ -108,6 +108,23 @@ Here's a proposed solution (not necessarily correct) crowdsourced from students 
 
 <img width="288" alt="image" src="https://user-images.githubusercontent.com/1119017/184415981-4dbff870-45ba-4f99-86a5-5c6985ca7f96.png">
 
+Here is a repl where we worked towards a correct solution:
+
+[https://replit.com/@phtcon/spis2022-depth-0812-num2lettergrade#main.py](https://replit.com/@phtcon/spis2022-depth-0812-num2lettergrade#main.py)
+
+We also discussed the purpose of the Console and the Shell windows in repl.it
+
+<img width="306" alt="image" src="https://user-images.githubusercontent.com/1119017/184425187-fb860725-54ce-4a64-bb12-266e2615a2d4.png">
+
+* The Console is a python prompt
+* The Shell is a Linux command line prompt
+
+The Shell can be used for:
+* Listing all of your files with `ls`
+* To install pytest, with: `python3 -m poetry add pytest`
+* Running `pytest file.py` to run the tests inside `file.py`
+* Running `python3 file.py` to run the regular Python code inside `file.py`
+* And for many other things.
 
 # We talked a bit about iterators
 
