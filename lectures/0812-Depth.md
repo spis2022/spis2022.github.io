@@ -98,6 +98,9 @@ Examples:
 * grade2letter(75) should return C, 
 * grade2letter(40) should return F.
 
+Here's a proposed solution (not necessarily correct) crowdsourced from students in the session
+
+<img width="288" alt="image" src="https://user-images.githubusercontent.com/1119017/184415981-4dbff870-45ba-4f99-86a5-5c6985ca7f96.png">
 
 
 # A bit about references
