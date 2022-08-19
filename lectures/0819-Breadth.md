@@ -3,6 +3,7 @@
 ## Some resources for sound/audio
 
 Repl.it (Python-based)
+* [Enabling Audio in your repl](https://docs.replit.com/misc/playing-audio-replit)
 * [Audio on repl.it [BETA] documentation](https://replitgithubio-1--ritza.repl.co/repls/audio)
 * [Example Repl that plays sound](https://replit.com/@phtcon/py-audio-demo#main.py)
 * [`wave`, a library to create wave files with Python](https://docs.python.org/3/library/wave.html)
