@@ -1,5 +1,16 @@
 # SPIS 2022, Breadth 08/19 (Phill)
 
+## Enabling Audio in a repl
+
+To enable audio:
+
+* On the  ⋮ menu next to *Files*, click *Show hidden files* 
+* add `audio = true` as first line in the `.replit` file
+
+```
+audio = true
+```
+
 ## Some resources for sound/audio
 
 Repl.it (Python-based)
