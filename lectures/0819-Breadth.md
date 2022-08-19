@@ -1,5 +1,17 @@
 # SPIS 2022, Breadth 08/19 (Phill)
 
+# Basic concepts
+
+* Sound is vibration
+* Electronic sound is caused by driving a speaker with a voltage
+  - There is some max and min voltage, which for convenience, we'll represent
+    as -1 and +1.
+  - 0 means the speaker is at rest and silent.
+  - -1 means it's stretched all the way in one direction
+  - +1 means it's stretched all the way in the other
+  - We need to avoid going past -1 or +1
+  - So a sine wave is a convenient way to represent that.
+
 # Enabling Audio in a repl
 
 To enable audio:
