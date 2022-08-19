@@ -1,6 +1,6 @@
 # SPIS 2022, Breadth 08/19 (Phill)
 
-## Enabling Audio in a repl
+# Enabling Audio in a repl
 
 To enable audio:
 
@@ -10,6 +10,16 @@ To enable audio:
 ```
 audio = true
 ```
+
+# Demo of sound in a repl
+
+[https://replit.com/@PhillipConrad/audio-python-2#main.py](https://replit.com/@PhillipConrad/audio-python-2#main.py)
+
+# Demo of sound with Pure Python
+
+[https://github.com/spis2022/audio-plain-python](https://github.com/spis2022/audio-plain-python)
+
+# More resources
 
 ## Some resources for sound/audio
 
