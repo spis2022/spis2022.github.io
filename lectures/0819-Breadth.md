@@ -5,6 +5,7 @@
 Repl.it (Python-based)
 * [Audio on repl.it [BETA] documentation](https://replitgithubio-1--ritza.repl.co/repls/audio)
 * [Example Repl that plays sound](https://replit.com/@phtcon/py-audio-demo#main.py)
+* [`wave`, a library to create wave files with Python](https://docs.python.org/3/library/wave.html)
 * [(python) replit api reference](https://replit-docs-python.allawesome497.repl.co/)
 
 Repl.it (non-Python)
