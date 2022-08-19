@@ -19,6 +19,10 @@ audio = true
 
 https://linuxaudio.github.io/libremusicproduction/html/answer/adsr-envelope.html
 
+# Sine wave to square wave
+
+[https://www.allaboutcircuits.com/textbook/alternating-current/chpt-7/square-wave-signals/](https://www.allaboutcircuits.com/textbook/alternating-current/chpt-7/square-wave-signals/)
+
 # Demo of sound with Pure Python
 
 [https://github.com/spis2022/audio-plain-python](https://github.com/spis2022/audio-plain-python)
