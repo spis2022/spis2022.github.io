@@ -15,6 +15,10 @@ audio = true
 
 [https://replit.com/@PhillipConrad/audio-python-2#main.py](https://replit.com/@PhillipConrad/audio-python-2#main.py)
 
+# Attack, Decay, Sustain, Release
+
+https://linuxaudio.github.io/libremusicproduction/html/answer/adsr-envelope.html
+
 # Demo of sound with Pure Python
 
 [https://github.com/spis2022/audio-plain-python](https://github.com/spis2022/audio-plain-python)
