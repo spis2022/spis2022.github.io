@@ -2,8 +2,11 @@
 
 ## Some resources for sound/audio
 
+Repl.it (Python-based)
+* [Audio on repl.it [BETA]](https://replitgithubio-1--ritza.repl.co/repls/audio)
 * [(python) replit api reference](https://replit-docs-python.allawesome497.repl.co/)
 
+Repl.it (non-Python)
 * [Making music with replit](https://www.youtube.com/watch?v=-kTXQ_EnYek)
   * Javascript based, but little to no Javascript knowledge needed  
 
