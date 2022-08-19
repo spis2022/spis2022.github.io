@@ -13,6 +13,10 @@ audio = true
 
 ## Some resources for sound/audio
 
+Python-based (that do not depend on repl.it)
+* [Playing sound with basic python](https://pythonbasics.org/python-play-sound/)
+  * This may not work in repl.it
+
 Repl.it (Python-based)
 * [Enabling Audio in your repl](https://docs.replit.com/misc/playing-audio-replit)
 * [Audio on repl.it [BETA] documentation](https://replitgithubio-1--ritza.repl.co/repls/audio)
