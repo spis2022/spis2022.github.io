@@ -42,3 +42,6 @@ Finally, click "Create New Instance"
 
 <img width="1120" alt="image" src="https://user-images.githubusercontent.com/1119017/186521311-4059f2f2-a615-4af5-9f72-db06bb25047b.png">
 
+You should end up with a page like this one:
+
+<img width="1185" alt="image" src="https://user-images.githubusercontent.com/1119017/186521394-dd3e6dd3-e656-4b99-9757-81de88494642.png">
