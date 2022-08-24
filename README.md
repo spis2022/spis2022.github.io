@@ -31,3 +31,5 @@ For a complete list of all SPIS Lectures, visit: [https://sites.google.com/eng.u
 
 
 * [08/22: FOCS: Web app sessions](/lectures/0822)
+* [08/24: FOCS: Web app sessions, OAuth Login](/lectures/0824)
+
