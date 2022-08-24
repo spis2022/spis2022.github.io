@@ -21,3 +21,7 @@ When setting up your account, you'll see a screen like this.  For team name, I s
 Here are the suggested choices for the other fields:
 
 <img width="638" alt="image" src="https://user-images.githubusercontent.com/1119017/186520257-2c602a3f-e498-4684-9580-814ad9107d1d.png">
+
+You'll land on a screen like this one:
+
+<img width="1120" alt="image" src="https://user-images.githubusercontent.com/1119017/186520736-bf0c242c-5dd4-4fa4-9661-747386ce8c0b.png">
