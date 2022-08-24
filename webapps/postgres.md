@@ -29,3 +29,5 @@ You'll land on a screen like this one:
 Click "Create New Instance", and you'll land here.  Don't worry about the credit card warnings; you should not need to enter one.
 
 <img width="1116" alt="image" src="https://user-images.githubusercontent.com/1119017/186520944-13ea6794-e757-4d89-8dbc-f4097826db44.png">
+
+Fill in the values and click "Select Region"
