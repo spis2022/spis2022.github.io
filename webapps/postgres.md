@@ -35,3 +35,5 @@ Fill in the values and click "Select Region"
 For region, you can leave the default (US-East) or select US-West:
 
 <img width="1104" alt="image" src="https://user-images.githubusercontent.com/1119017/186521166-65871398-bfe6-48ce-b9e4-1b86b1d1f08e.png">
+
+Then click "Review"
