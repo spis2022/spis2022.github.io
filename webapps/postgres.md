@@ -37,3 +37,8 @@ For region, you can leave the default (US-East) or select US-West:
 <img width="1104" alt="image" src="https://user-images.githubusercontent.com/1119017/186521166-65871398-bfe6-48ce-b9e4-1b86b1d1f08e.png">
 
 Then click "Review"
+
+Finally, click "Create New Instance"
+
+<img width="1120" alt="image" src="https://user-images.githubusercontent.com/1119017/186521311-4059f2f2-a615-4af5-9f72-db06bb25047b.png">
+
