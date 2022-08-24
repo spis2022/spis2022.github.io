@@ -59,3 +59,9 @@ four secrets.  The first three are explained in the notes from [0824](/lectures/
 * DB_URL
 
 [https://replit.com/@phtcon/spis2022-0824-try-postgres-1#main.py](https://replit.com/@phtcon/spis2022-0824-try-postgres-1#main.py)
+
+# With Bootstrap
+
+Here's a version of the repl above that also includes Bootstrap. It uses an easier way of including the boostrap code than the technique we saw in lab8 part 4.
+
+[https://replit.com/@phtcon/spis2022-0824-try-bootstrap-flask#README.md](https://replit.com/@phtcon/spis2022-0824-try-bootstrap-flask#README.md)
