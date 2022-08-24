@@ -21,5 +21,9 @@ For a complete list of all SPIS Lectures, visit: [https://sites.google.com/eng.u
 * [08/12: Depth lecture (More on recursion and references, plus "Ask me anything" about FOCS lectures weeks 1-2
 )](/lectures/0812-Depth)
 
+### Week 3
+
+
+* [08/19: Breadth lecture: Music/Sound with Python](/lectures/0819-Breadth)
 
 
