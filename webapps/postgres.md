@@ -45,3 +45,7 @@ Finally, click "Create New Instance"
 You should end up with a page like this one:
 
 <img width="1185" alt="image" src="https://user-images.githubusercontent.com/1119017/186521394-dd3e6dd3-e656-4b99-9757-81de88494642.png">
+
+If you then click on the name of the database, you'll see a page like this one:
+
+<img width="1175" alt="image" src="https://user-images.githubusercontent.com/1119017/186521531-e238b4eb-2e86-4c63-a3e4-806f32f7e895.png">
