@@ -49,3 +49,13 @@ You should end up with a page like this one:
 If you then click on the name of the database, you'll see a page like this one.  Note that next to the URL there is an eye; if you click it, you'll see the full URL which you can copy/paste.  You'll need this for your code.
 
 <img width="1175" alt="image" src="https://user-images.githubusercontent.com/1119017/186521531-e238b4eb-2e86-4c63-a3e4-806f32f7e895.png">
+
+This repl shows how you can set up a webapp that will try to connect to your database when you are logged in with OAuth. You'll need to configure
+four secrets.  The first three are explained in the notes from [0824](/lectures/0824).  The fourth is the database URL from above:
+
+* APP_SECRET_KEY 
+* GITHUB_CLIENT_ID
+* GITHUB_CLIENT_SECRET
+* DB_URL
+
+[https://replit.com/@phtcon/spis2022-0824-try-postgres-1#main.py](https://replit.com/@phtcon/spis2022-0824-try-postgres-1#main.py)
